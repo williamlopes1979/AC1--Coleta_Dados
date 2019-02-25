@@ -1,12 +1,50 @@
-<><!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Contato</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
-    <script src="main.js"></script>
+    <h1>Contato</h1>
+    <h3>Preencha o formulário abaixo:</h3>
+    <form>
+        <label>Nome Completo:</label><br/>
+        <input type="text" maxlenght="3" name="user" size="30"/><br/>
+        <label>CPF:</label><br/>
+        <input type="text" maxlenght="3" name="user" size="15"/><br/>
+        <label>Data:</label><br/>
+        <input type="date" min="10" max="10" maxlenght="3" name="user" size="30"/><br/>
+        <label>Cidade:</label><br/>
+        <input type="text"/><br/>
+        <label>Estado:</label><br/>
+        <select name="UF">
+            <option name="AC">Acre</option>
+            <option name="AL">Alagoas</option>
+            <option name="AP">Amapá</option>
+            <option name="AM">Amazonas</option>
+            <option name="BA">Bahia</option>
+            <option name="CE">Ceará</option>
+            <option name="DF">Distrito Federal</option>
+            <option name="ES">Espírito Santo</option>
+            <option name="GO">Goiás</option>
+            <option name="MA">Maranhão</option>
+            <option name="MT">Mato Grosso</option>
+            <option name="MS">Mato Grosso do Sul</option>
+            <option name="MG">Minas Gerais</option>
+            <option name="PA">Pará</option>
+            <option name="PB">Paraíba</option>
+            <option name="PR">Paraná</option>
+            <option name="PE">Pernambuco</option>
+            <option name="PI">Piauí</option>
+            <option name="RJ">Rio de Janeiro</option>
+            <option name="RN">Rio Grande do Norte</option>
+        </select><br/>
+        <label>Assunto:</label><br/>
+        <input type="checkbox" name="Matrícula" value="Matri">Matrícula<br/>
+        <input type="checkbox" name="Rematrícula" value="Rematri">Rematrícula<br/>
+        <input type="checkbox" name="Financeiro" value="Financeiro">Rematrícula<br/>
+        <input type="button" value="ENVIAR"/>
+    </form>
 </head>
 <body>
     
